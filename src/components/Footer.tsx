@@ -11,25 +11,25 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-white text-primary py-16 px-4 sm:px-6 lg:px-8 border-t border-border">
+    <footer className="bg-white text-[#004172] py-16 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Logo et description */}
           <div className="lg:col-span-2">
             <img src={logoImage} alt="ALTANS Avocats" className="h-12 mb-4" />
-            <p className="text-primary leading-relaxed">
+            <p className="text-[#004172] leading-relaxed">
               Cabinet d'avocats spécialisé en droit social et droit des affaires, nous accompagnons les CSE, les salariés et les entreprises avec expertise et engagement.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="mb-4 text-primary">Navigation</h4>
+            <h4 className="mb-4 text-[#004172]">Navigation</h4>
             <ul className="space-y-2">
               <li>
                 <button 
                   onClick={() => scrollToSection('accueil')}
-                  className="text-primary hover:text-primary/70 transition-colors"
+                  className="text-[#004172] hover:text-[#004172]/70 transition-colors"
                 >
                   Accueil
                 </button>
@@ -37,7 +37,7 @@ export function Footer() {
               <li>
                 <button 
                   onClick={() => scrollToSection('droit-social')}
-                  className="text-primary hover:text-primary/70 transition-colors"
+                  className="text-[#004172] hover:text-[#004172]/70 transition-colors"
                 >
                   Droit Social
                 </button>
@@ -45,7 +45,7 @@ export function Footer() {
               <li>
                 <button 
                   onClick={() => scrollToSection('droit-affaires')}
-                  className="text-primary hover:text-primary/70 transition-colors"
+                  className="text-[#004172] hover:text-[#004172]/70 transition-colors"
                 >
                   Droit des Affaires
                 </button>
@@ -53,7 +53,7 @@ export function Footer() {
               <li>
                 <button 
                   onClick={() => scrollToSection('contact')}
-                  className="text-primary hover:text-primary/70 transition-colors"
+                  className="text-[#004172] hover:text-[#004172]/70 transition-colors"
                 >
                   Contact
                 </button>
@@ -63,8 +63,8 @@ export function Footer() {
 
           {/* Expertises */}
           <div>
-            <h4 className="mb-4 text-primary">Nos expertises</h4>
-            <ul className="space-y-2 text-primary">
+            <h4 className="mb-4 text-[#004172]">Nos expertises</h4>
+            <ul className="space-y-2 text-[#004172]">
               <li>Droit du travail</li>
               <li>Relations collectives</li>
               <li>CSE & Représentants</li>
@@ -75,16 +75,16 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border pt-8">
+        <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-primary text-sm">
+            <p className="text-[#004172] text-sm">
               © {new Date().getFullYear()} ALTANS Avocats. Tous droits réservés.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-primary hover:text-primary/70 transition-colors">
+              <a href="#" className="text-[#004172] hover:text-[#004172]/70 transition-colors">
                 Mentions légales
               </a>
-              <a href="#" className="text-primary hover:text-primary/70 transition-colors">
+              <a href="#" className="text-[#004172] hover:text-[#004172]/70 transition-colors">
                 Politique de confidentialité
               </a>
             </div>

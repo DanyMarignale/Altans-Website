@@ -39,13 +39,13 @@ export function DroitSocial() {
   ];
 
   return (
-    <section id="droit-social" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted">
+    <section id="droit-social" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl text-primary mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#004172] mb-4 font-bold">
             Droit Social & Droit du Travail
           </h2>
-          <p className="text-lg md:text-xl text-secondary max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             Nous défendons les intérêts des CSE et des salariés dans l'ensemble de leurs relations collectives et individuelles de travail
           </p>
         </div>
@@ -56,13 +56,13 @@ export function DroitSocial() {
           ))}
         </div>
 
-        <div className="mt-16 bg-primary/5 border border-primary/20 rounded-xl p-8 md:p-12">
+        <div className="mt-16 bg-[#004172]/5 border border-[#004172]/20 rounded-xl p-8 md:p-12">
           <motion.h3 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-2xl md:text-3xl text-primary mb-6 text-center"
+            className="text-2xl md:text-3xl text-[#004172] mb-6 text-center font-bold"
           >
             Notre engagement en Droit Social
           </motion.h3>
@@ -71,7 +71,7 @@ export function DroitSocial() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="prose prose-lg max-w-none text-foreground"
+            className="prose prose-lg max-w-none text-gray-900"
           >
             <p className="mb-4">
               Nous mettons notre expertise au service des représentants du personnel et des salariés pour garantir le respect de leurs droits fondamentaux. Notre connaissance approfondie du droit social nous permet d'intervenir à tous les stades :
@@ -117,18 +117,18 @@ function ServiceCard({ service, index }: { service: any, index: number }) {
       >
         {/* Front face */}
         <div 
-          className="absolute w-full h-full bg-primary rounded-xl shadow-lg flex flex-col items-center justify-center p-8"
+          className="absolute w-full h-full bg-[#004172] rounded-xl shadow-lg flex flex-col items-center justify-center p-8"
           style={{ backfaceVisibility: 'hidden' }}
         >
-          <service.icon className="w-20 h-20 text-white mb-6" />
-          <h3 className="text-2xl text-white text-center">
+          <service.icon className="w-20 h-20 text-white mb-6 stroke-2" strokeWidth={2} />
+          <h3 className="text-2xl text-white text-center font-medium">
             {service.title}
           </h3>
         </div>
 
         {/* Back face */}
         <div 
-          className="absolute w-full h-full bg-white rounded-xl shadow-lg flex items-center justify-center p-8 border border-border overflow-hidden"
+          className="absolute w-full h-full bg-white rounded-xl shadow-lg flex items-center justify-center p-8 border border-gray-200 overflow-hidden"
           style={{ 
             backfaceVisibility: 'hidden',
             transform: 'rotateY(180deg)'
@@ -138,7 +138,7 @@ function ServiceCard({ service, index }: { service: any, index: number }) {
           <service.icon className="absolute w-48 h-48 text-gray-300 opacity-50" style={{ zIndex: 0 }} />
           
           {/* Texte par-dessus */}
-          <p className="text-lg text-primary font-bold leading-relaxed text-center relative" style={{ zIndex: 1 }}>
+          <p className="text-lg text-[#004172] font-bold leading-relaxed text-center relative" style={{ zIndex: 1 }}>
             {service.description}
           </p>
         </div>

@@ -47,10 +47,10 @@ export function DroitAffaires() {
     <section id="droit-affaires" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl text-primary mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#004172] mb-4 font-bold">
             Droit des Affaires
           </h2>
-          <p className="text-lg md:text-xl text-secondary max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             Nous accompagnons les entreprises de la création à la croissance, dans toutes leurs opérations stratégiques
           </p>
         </div>
@@ -67,33 +67,33 @@ export function DroitAffaires() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-primary/5 border border-primary/20 rounded-xl p-8"
+            className="bg-[#004172]/5 border border-[#004172]/20 rounded-xl p-8"
           >
-            <h3 className="text-2xl text-primary mb-4">
+            <h3 className="text-2xl text-[#004172] mb-4 font-bold">
               Propriété intellectuelle
             </h3>
-            <p className="text-foreground leading-relaxed mb-4">
+            <p className="text-gray-900 leading-relaxed mb-4">
               Nous protégeons vos actifs immatériels essentiels à votre développement commercial :
             </p>
-            <ul className="space-y-2 text-foreground">
+            <ul className="space-y-2 text-gray-900">
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Dépôt et gestion de marques françaises et internationales</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Recherches d'antériorité et conseil en stratégie de marque</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Contrats de licence et cession de droits</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Défense en cas de contrefaçon</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Protection des noms de domaine et des créations</span>
               </li>
             </ul>
@@ -104,33 +104,33 @@ export function DroitAffaires() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-primary/5 border border-primary/20 rounded-xl p-8"
+            className="bg-[#004172]/5 border border-[#004172]/20 rounded-xl p-8"
           >
-            <h3 className="text-2xl text-primary mb-4">
+            <h3 className="text-2xl text-[#004172] mb-4 font-bold">
               Notre approche
             </h3>
-            <p className="text-foreground leading-relaxed mb-4">
+            <p className="text-gray-900 leading-relaxed mb-4">
               Nous combinons expertise juridique et vision business pour vous offrir un conseil pragmatique et efficace :
             </p>
-            <ul className="space-y-2 text-foreground">
+            <ul className="space-y-2 text-gray-900">
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Compréhension approfondie de vos enjeux stratégiques</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Solutions juridiques adaptées à votre secteur d'activité</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Accompagnement personnalisé à chaque étape</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Réactivité et disponibilité de nos équipes</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-[#004172] mt-1">•</span>
                 <span>Réseau de partenaires experts (financiers, fiscalistes)</span>
               </li>
             </ul>
@@ -164,18 +164,18 @@ function ServiceCard({ service, index }: { service: any, index: number }) {
       >
         {/* Front face */}
         <div 
-          className="absolute w-full h-full bg-primary rounded-xl shadow-lg flex flex-col items-center justify-center p-8"
+          className="absolute w-full h-full bg-[#004172] rounded-xl shadow-lg flex flex-col items-center justify-center p-8"
           style={{ backfaceVisibility: 'hidden' }}
         >
-          <service.icon className="w-20 h-20 text-white mb-6" />
-          <h3 className="text-2xl text-white text-center">
+          <service.icon className="w-20 h-20 text-white mb-6 stroke-2" strokeWidth={2} />
+          <h3 className="text-2xl text-white text-center font-medium">
             {service.title}
           </h3>
         </div>
 
         {/* Back face */}
         <div 
-          className="absolute w-full h-full bg-white rounded-xl shadow-lg flex items-center justify-center p-8 border border-border overflow-hidden"
+          className="absolute w-full h-full bg-white rounded-xl shadow-lg flex items-center justify-center p-8 border border-gray-200 overflow-hidden"
           style={{ 
             backfaceVisibility: 'hidden',
             transform: 'rotateY(180deg)'
@@ -185,7 +185,7 @@ function ServiceCard({ service, index }: { service: any, index: number }) {
           <service.icon className="absolute w-48 h-48 text-gray-300 opacity-50" style={{ zIndex: 0 }} />
           
           {/* Texte par-dessus */}
-          <p className="text-lg text-primary font-bold leading-relaxed text-center relative" style={{ zIndex: 1 }}>
+          <p className="text-lg text-[#004172] font-bold leading-relaxed text-center relative" style={{ zIndex: 1 }}>
             {service.description}
           </p>
         </div>
