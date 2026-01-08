@@ -12,7 +12,7 @@ export function Hero() {
           alt="Jeu d'échecs"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-primary/85"></div>
+        <div className="absolute inset-0 bg-[#004172]/90"></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">

@@ -1,2 +1,73 @@
-/* Theme CSS variables - to be customized */
+/* Theme CSS variables */
+:root {
+  /* Couleurs primaires - Bleu professionnel ALTANS */
+  --primary: 0 65 114; /* Bleu foncé professionnel (#004172) */
+  --primary-foreground: 255 255 255;
+  
+  /* Couleurs de base */
+  --background: 255 255 255;
+  --foreground: 15 23 42;
+  
+  /* Couleurs secondaires */
+  --secondary: 241 245 249;
+  --secondary-foreground: 15 23 42;
+  
+  /* Couleurs d'accent */
+  --accent: 241 245 249;
+  --accent-foreground: 15 23 42;
+  
+  /* Couleurs de bordure et input */
+  --border: 226 232 240;
+  --input: 226 232 240;
+  --input-background: 255 255 255;
+  
+  /* Couleurs d'état */
+  --destructive: 220 38 38;
+  --muted: 241 245 249;
+  --muted-foreground: 100 116 139;
+  
+  /* Couleurs de popover et card */
+  --popover: 255 255 255;
+  --popover-foreground: 15 23 42;
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+  
+  /* Couleurs sidebar */
+  --sidebar-background: 255 255 255;
+  --sidebar-foreground: 15 23 42;
+  --sidebar-border: 226 232 240;
+  --sidebar-accent: 241 245 249;
+  --sidebar-accent-foreground: 15 23 42;
+  
+  /* Switch */
+  --switch-background: 226 232 240;
+  
+  /* Ring */
+  --ring: 0 65 114;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 15 23 42;
+    --foreground: 248 250 252;
+    --secondary: 30 41 59;
+    --secondary-foreground: 248 250 252;
+    --accent: 30 41 59;
+    --accent-foreground: 248 250 252;
+    --border: 30 41 59;
+    --input: 30 41 59;
+    --input-background: 30 41 59;
+    --muted: 30 41 59;
+    --muted-foreground: 148 163 184;
+    --popover: 15 23 42;
+    --popover-foreground: 248 250 252;
+    --card: 15 23 42;
+    --card-foreground: 248 250 252;
+    --sidebar-background: 15 23 42;
+    --sidebar-foreground: 248 250 252;
+    --sidebar-border: 30 41 59;
+    --sidebar-accent: 30 41 59;
+    --sidebar-accent-foreground: 248 250 252;
+  }
+}
 
