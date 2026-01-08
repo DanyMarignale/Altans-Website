@@ -178,7 +178,7 @@ ${formData.message}
                     <Mail className="w-6 h-6 text-[#004172]" />
                   </div>
                   <div>
-                    <p className="text-muted-foreground mb-1">Email</p>
+                    <p className="text-gray-600 mb-1 text-sm">Email</p>
                     <a href="mailto:dm@altans.fr" className="text-gray-900 hover:text-[#004172] transition-colors">
                       dm@altans.fr
                     </a>
@@ -190,7 +190,7 @@ ${formData.message}
                     <Phone className="w-6 h-6 text-[#004172]" />
                   </div>
                   <div>
-                    <p className="text-muted-foreground mb-1">Téléphone</p>
+                    <p className="text-gray-600 mb-1 text-sm">Téléphone</p>
                     <a href="tel:+33622264965" className="text-gray-900 hover:text-[#004172] transition-colors">
                       06.22.26.49.65
                     </a>
@@ -202,7 +202,7 @@ ${formData.message}
                     <MapPin className="w-6 h-6 text-[#004172]" />
                   </div>
                   <div>
-                    <p className="text-muted-foreground mb-1">Adresse</p>
+                    <p className="text-gray-600 mb-1 text-sm">Adresse</p>
                     <p className="text-gray-900">
                       5 Avenue de l'Opéra<br />
                       75001 Paris<br />
@@ -222,7 +222,7 @@ ${formData.message}
                   <span>Lundi - Vendredi</span>
                   <span>9h00 - 19h00</span>
                 </div>
-                <div className="flex justify-between text-muted-foreground">
+                <div className="flex justify-between text-gray-600">
                   <span>Samedi - Dimanche</span>
                   <span>Sur rendez-vous</span>
                 </div>
@@ -230,7 +230,7 @@ ${formData.message}
             </div>
 
             <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-200">
-              <p className="text-muted-foreground italic">
+              <p className="text-gray-600 italic">
                 "Notre cabinet s'engage à vous répondre dans les 24 heures et à vous proposer un premier rendez-vous dans les meilleurs délais."
               </p>
             </div>
