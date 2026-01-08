@@ -1,7 +1,7 @@
 /* Theme CSS variables */
 :root {
   /* Couleurs primaires - Bleu professionnel ALTANS */
-  --primary: 0 65 114; /* Bleu foncé professionnel (#004172) */
+  --primary: 0 31 84; /* Bleu ALTANS (#001F54) */
   --primary-foreground: 255 255 255;
   
   /* Couleurs de base */
@@ -43,7 +43,7 @@
   --switch-background: 226 232 240;
   
   /* Ring */
-  --ring: 0 65 114;
+  --ring: 0 31 84;
 }
 
 @media (prefers-color-scheme: dark) {

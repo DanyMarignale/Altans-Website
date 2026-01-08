@@ -42,7 +42,7 @@ export function DroitSocial() {
     <section id="droit-social" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#004172] mb-4 font-bold">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#001F54] mb-4 font-bold">
             Droit Social & Droit du Travail
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
@@ -56,13 +56,13 @@ export function DroitSocial() {
           ))}
         </div>
 
-        <div className="mt-16 bg-[#004172]/5 border border-[#004172]/20 rounded-xl p-8 md:p-12">
+        <div className="mt-16 bg-[#001F54]/5 border border-[#001F54]/20 rounded-xl p-8 md:p-12">
           <motion.h3 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-2xl md:text-3xl text-[#004172] mb-6 text-center font-bold"
+            className="text-2xl md:text-3xl text-[#001F54] mb-6 text-center font-bold"
           >
             Notre engagement en Droit Social
           </motion.h3>
@@ -117,7 +117,7 @@ function ServiceCard({ service, index }: { service: any, index: number }) {
       >
         {/* Front face */}
         <div 
-          className="absolute w-full h-full bg-[#004172] rounded-xl shadow-lg flex flex-col items-center justify-center p-8"
+          className="absolute w-full h-full bg-[#001F54] rounded-xl shadow-lg flex flex-col items-center justify-center p-8"
           style={{ backfaceVisibility: 'hidden' }}
         >
           <service.icon className="w-20 h-20 text-white mb-6 stroke-2" strokeWidth={2} />
@@ -138,7 +138,7 @@ function ServiceCard({ service, index }: { service: any, index: number }) {
           <service.icon className="absolute w-48 h-48 text-gray-300 opacity-50" style={{ zIndex: 0 }} />
           
           {/* Texte par-dessus */}
-          <p className="text-lg text-[#004172] font-bold leading-relaxed text-center relative" style={{ zIndex: 1 }}>
+          <p className="text-lg text-[#001F54] font-bold leading-relaxed text-center relative" style={{ zIndex: 1 }}>
             {service.description}
           </p>
         </div>

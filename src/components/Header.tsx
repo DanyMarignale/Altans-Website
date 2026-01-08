@@ -27,25 +27,25 @@ export function Header() {
           <nav className="hidden md:flex items-center gap-8">
             <button 
               onClick={() => scrollToSection('accueil')}
-              className="text-[#004172] hover:text-[#004172]/80 transition-colors font-medium"
+              className="text-[#001F54] hover:text-[#001F54]/80 transition-colors font-medium"
             >
               Accueil
             </button>
             <button 
               onClick={() => scrollToSection('droit-social')}
-              className="text-[#004172] hover:text-[#004172]/80 transition-colors font-medium"
+              className="text-[#001F54] hover:text-[#001F54]/80 transition-colors font-medium"
             >
               Droit Social
             </button>
             <button 
               onClick={() => scrollToSection('droit-affaires')}
-              className="text-[#004172] hover:text-[#004172]/80 transition-colors font-medium"
+              className="text-[#001F54] hover:text-[#001F54]/80 transition-colors font-medium"
             >
               Droit des Affaires
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="bg-[#004172] text-white px-6 py-2.5 rounded-lg hover:bg-[#00355a] transition-colors font-medium"
+              className="bg-[#001F54] text-white px-6 py-2.5 rounded-lg hover:bg-[#001433] transition-colors font-medium"
             >
               Contact
             </button>
@@ -53,7 +53,7 @@ export function Header() {
 
           {/* Menu Mobile Button */}
           <button 
-            className="md:hidden text-[#004172]"
+            className="md:hidden text-[#001F54]"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -66,25 +66,25 @@ export function Header() {
             <div className="flex flex-col gap-4">
               <button 
                 onClick={() => scrollToSection('accueil')}
-                className="text-[#004172] hover:text-[#004172]/80 transition-colors text-left font-medium"
+                className="text-[#001F54] hover:text-[#001F54]/80 transition-colors text-left font-medium"
               >
                 Accueil
               </button>
               <button 
                 onClick={() => scrollToSection('droit-social')}
-                className="text-[#004172] hover:text-[#004172]/80 transition-colors text-left font-medium"
+                className="text-[#001F54] hover:text-[#001F54]/80 transition-colors text-left font-medium"
               >
                 Droit Social
               </button>
               <button 
                 onClick={() => scrollToSection('droit-affaires')}
-                className="text-[#004172] hover:text-[#004172]/80 transition-colors text-left font-medium"
+                className="text-[#001F54] hover:text-[#001F54]/80 transition-colors text-left font-medium"
               >
                 Droit des Affaires
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="bg-[#004172] text-white px-6 py-2.5 rounded-lg hover:bg-[#00355a] transition-colors font-medium"
+                className="bg-[#001F54] text-white px-6 py-2.5 rounded-lg hover:bg-[#001433] transition-colors font-medium"
               >
                 Contact
               </button>

@@ -51,7 +51,7 @@ ${formData.message}
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#004172] mb-4 font-bold">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#001F54] mb-4 font-bold">
             Contactez-nous
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
@@ -83,7 +83,7 @@ ${formData.message}
                   value={formData.nom}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#004172]"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#001F54]"
                 />
               </div>
 
@@ -98,7 +98,7 @@ ${formData.message}
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#004172]"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#001F54]"
                 />
               </div>
 
@@ -112,7 +112,7 @@ ${formData.message}
                   name="telephone"
                   value={formData.telephone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#004172]"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#001F54]"
                 />
               </div>
 
@@ -126,7 +126,7 @@ ${formData.message}
                   value={formData.sujet}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#004172]"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#001F54]"
                 >
                   <option value="">Sélectionnez un domaine</option>
                   <option value="droit-social">Droit Social & Droit du Travail</option>
@@ -146,13 +146,13 @@ ${formData.message}
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#004172] resize-none"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#001F54] resize-none"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-[#004172] text-white px-6 py-4 rounded-lg hover:bg-[#00355a] transition-colors flex items-center justify-center gap-2 font-medium"
+                className="w-full bg-[#001F54] text-white px-6 py-4 rounded-lg hover:bg-[#001433] transition-colors flex items-center justify-center gap-2 font-medium"
               >
                 <Send className="w-5 h-5" />
                 Envoyer le message
@@ -174,32 +174,32 @@ ${formData.message}
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-[#004172]/5 rounded-lg">
-                    <Mail className="w-6 h-6 text-[#004172]" />
+                  <div className="p-3 bg-[#001F54]/5 rounded-lg">
+                    <Mail className="w-6 h-6 text-[#001F54]" />
                   </div>
                   <div>
                     <p className="text-gray-600 mb-1 text-sm">Email</p>
-                    <a href="mailto:dm@altans.fr" className="text-gray-900 hover:text-[#004172] transition-colors">
+                    <a href="mailto:dm@altans.fr" className="text-gray-900 hover:text-[#001F54] transition-colors">
                       dm@altans.fr
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-[#004172]/5 rounded-lg">
-                    <Phone className="w-6 h-6 text-[#004172]" />
+                  <div className="p-3 bg-[#001F54]/5 rounded-lg">
+                    <Phone className="w-6 h-6 text-[#001F54]" />
                   </div>
                   <div>
                     <p className="text-gray-600 mb-1 text-sm">Téléphone</p>
-                    <a href="tel:+33622264965" className="text-gray-900 hover:text-[#004172] transition-colors">
+                    <a href="tel:+33622264965" className="text-gray-900 hover:text-[#001F54] transition-colors">
                       06.22.26.49.65
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-[#004172]/5 rounded-lg">
-                    <MapPin className="w-6 h-6 text-[#004172]" />
+                  <div className="p-3 bg-[#001F54]/5 rounded-lg">
+                    <MapPin className="w-6 h-6 text-[#001F54]" />
                   </div>
                   <div>
                     <p className="text-gray-600 mb-1 text-sm">Adresse</p>
@@ -213,8 +213,8 @@ ${formData.message}
               </div>
             </div>
 
-            <div className="bg-[#004172]/5 border border-[#004172]/20 rounded-xl p-8">
-              <h3 className="text-xl text-[#004172] mb-4">
+            <div className="bg-[#001F54]/5 border border-[#001F54]/20 rounded-xl p-8">
+              <h3 className="text-xl text-[#001F54] mb-4">
                 Horaires d'ouverture
               </h3>
               <div className="space-y-2 text-gray-900">
